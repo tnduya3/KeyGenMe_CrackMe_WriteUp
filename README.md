@@ -1,4 +1,4 @@
-# KeyGenCrackmeSlim.exe — Reverse Engineering Analysis
+# KeyGenCrackmeSlim.exe - Reverse Engineering Analysis
 
 ## Binary Overview
 
