@@ -252,32 +252,6 @@ The keygen emulates the VM completely. For any name:
 
 ---
 
-## IDA Pro Database Updates
-
-### Functions Renamed
-
-| Old Name | New Name |
-|----------|----------|
-| `sub_1400010F0` | `SlimVM_run` |
-| `sub_140001000` | `SlimVM_load_program` |
-| `sub_140005560` | `SlimVM_init_state` |
-| `sub_140005620` | `SlimVM_execute` |
-| `sub_140005630` | `SlimVM_set_register` |
-| `sub_140005660` | `printf_wrapper` |
-| `sub_1400056C0` | `sscanf_wrapper` |
-| `sub_140006540` | `cpu_feature_detect` |
-| `unk_140007520` | `g_slimvm_bytecode` |
-| `off_140007270` | `g_slimvm_dispatch_table` |
-
-### Comments Added
-
-- `main()` at `0x140005720`: Input struct layout, VM call chain
-- `SlimVM_run()` at `0x1400010F0`: Key schedule, opcode decryption formula, VM state offsets
-- `SlimVM_load_program()` at `0x140001000`: Bytecode loading details
-- `g_slimvm_bytecode` at `0x140007520`: Bytecode format description
-- `g_slimvm_dispatch_table` at `0x140007270`: Opcode-to-handler mapping
-
----
 
 ## Tools Created
 
